@@ -95,7 +95,7 @@ const App = () => {
                 <img
                   src="gelo.jpg"
                   alt="Profile"
-                  className="w-32 h-32 rounded-full mx-auto object-cover border-4 border-white dark:border-slate-800 shadow-md"
+                  className="w-42 h-42 rounded-full mx-auto object-cover border-4 border-white dark:border-slate-800 shadow-md"
                   onError={(e) => {
                     e.currentTarget.src = 'https://placehold.co/400x400/1e293b/ffffff?text=AF';
                   }}
